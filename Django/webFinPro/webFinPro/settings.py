@@ -89,27 +89,7 @@ WSGI_APPLICATION = 'webFinPro.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-    # }
-    #  'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'findata',
-    #     'USER': 'root',
-    #     'PASSWORD': 'wshr340111',
-    #     'HOST': 'nj-cdb-cvutu3ft.sql.tencentcdb.com',
-    #     'PORT': '63869',
-    # }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'findata',
-    #     'USER': 'root_user',
-    #     'PASSWORD': 'wshr340111',
-    #     'HOST': '222.195.89.229',
-    #     'PORT': '3306',
-    
-    #   }
+
     'default': {
                     'ENGINE': 'django.db.backends.mysql',
                     'NAME': os.environ.get('DB_NAME', 'findata'),
