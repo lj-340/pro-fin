@@ -118,22 +118,7 @@ DATABASES = {
                     'HOST': os.environ.get('DB_HOST', '127.0.0.1'),
                     'PORT': os.environ.get('DB_PORT', '3306'),
                 }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'findata',
-    #     'USER': 'root',
-    #     'PASSWORD': 'wshr340111',
-    #     'HOST': '10.206.16.6',
-    #     'PORT': '3306',
-    # }
-    # 'default': {
-    #     'ENGINE': 'django.db.backends.mysql',
-    #     'NAME': 'findata',
-    #     'USER': 'root',
-    #     'PASSWORD': '12345678',
-    #     'HOST': '127.0.0.1',
-    #     'PORT': '3306',
-    # }
+ 
 }
 
 
